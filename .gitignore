@@ -1,0 +1,17 @@
+# 依赖
+node_modules/
+dist/
+
+# 敏感配置
+.env
+
+# 数据库
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# 生成的输出文件
+public/data/*.json
+
+# macOS
+.DS_Store
